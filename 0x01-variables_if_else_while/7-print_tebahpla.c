@@ -2,13 +2,14 @@
 /**
  * main - entry
  * 
- * return: 0
+ * Return: 0
  */
 int main(void)
 {
 	char ch;
+
 	for (ch = 'z'; ch >= 'a'; ch--)
 		putchar(ch);
 	putchar('\n');
-	return 0;
+	return (0);
 }
