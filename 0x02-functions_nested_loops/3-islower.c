@@ -5,7 +5,7 @@
  *
  * @c: character to compair
  *
- * return: 1 for true, 0 for false
+ * Return: 1 if true, 0 if false
  *
  */
 int _islower(int c)
