@@ -17,3 +17,7 @@
    [1-swap.c]
 
 * 2. This report, by its very length, defends itself against the risk of being read
+ Q.Write a function that returns the length of a string
+     .Prototype: int _strlen(char *s);
+
+   [2-strlen.c]
