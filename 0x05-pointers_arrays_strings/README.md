@@ -21,3 +21,17 @@
      .Prototype: int _strlen(char *s);
 
    [2-strlen.c]
+
+* 3. I do not fear computers. I fear the lack of them
+ Q.Write a function that prints a string, followed by a new line, to stdout
+     .Prototype: void _puts(char *str);
+
+   [3-puts.c]
+
+* 4. I can only go one way. I've not got a reverse gear
+ Q.Write a function that prints a string, in reverse, followed by a new line
+     .Prototype: void print_rev(char *s);
+
+   [4-print_rev.c]
+
+* 5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes
