@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * strcat - concats 2 arrays
+ * _strcat - function
  *
  * @dest: destination of concat
  * @src: source of array
