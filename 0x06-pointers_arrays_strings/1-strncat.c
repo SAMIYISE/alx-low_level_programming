@@ -9,17 +9,17 @@
  *
  * Return: value of dest
  */
-char *_strncpy(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n);
 {
-	int i;
+	int x;
+	int y;
 
-	for (i = 0; i < n && src[i] != '\0'; i++)
+	for (y = 0; dest[y] != '\0'; y++)
+	{}
+
+	for (x = 0; x < n && src[x] != '\0'; x++)
 	{
-		dest[i] = src[i];
-	}
-	for (; i < n; i++)
-	{
-		dest[i] = '\0';
+		dest[y + x] = src[x];
 	}
 	return (dest);
 }
