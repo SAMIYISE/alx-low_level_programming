@@ -12,7 +12,7 @@ char *leet(char *s)
 	int x;
 	int y;
 
-	for (x = 0; s[i] != '\0'; i++)
+	for (x = 0; s[x] != '\0'; x++)
 	{
 		for (y = 0; alphaArr[y] != '\0'; y++)
 		{
