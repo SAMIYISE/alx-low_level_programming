@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "dog.h"
 
-/*
+/**
  * init_dog - initialize dog
  *
  * @d: address of dog
