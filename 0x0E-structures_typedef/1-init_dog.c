@@ -2,7 +2,7 @@
 #include "dog.h"
 
 /*
- * int_dog - initialize dog
+ * init_dog - initialize dog
  *
  * @d: address of dog
  * @name: name of dog
