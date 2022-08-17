@@ -17,3 +17,26 @@ More singly linked list
 >Prototype: size_t listint_len(const listint_t *h);
 
 [File: 1-listint_len.c]
+
+2. Add node
+
+-- Write a function that adds a new node at the beginning of a listint_t list
+>Prototype: listint_t *add_nodeint(listint_t **head, const int n);
+>Return: the address of the new element, or NULL if it failed
+
+[2-add_nodeint.c]
+
+3. Add node at the end
+
+-- Write a function that adds a new node at the end of a listint_t list
+>Prototype: listint_t *add_nodeint_end(listint_t **head, const int n);
+>Return: the address of the new element, or NULL if it failed
+
+[3-add_nodeint_end.c]
+
+4. Free list
+
+-- Write a function that frees a listint_t list.
+>Prototype: void free_listint(listint_t *head);
+
+[4-free_listint.c]
